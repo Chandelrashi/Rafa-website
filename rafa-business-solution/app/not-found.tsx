@@ -1,0 +1,1 @@
+export default function NotFound(){return(<main className='mx-auto max-w-3xl px-4 py-24 text-center'><h1 className='text-4xl font-semibold mb-2'>Page not found</h1><p className='text-zinc-600 dark:text-zinc-300'>Looks like you took a wrong turn—let’s get you back to RAFA.</p><p className='mt-6'><a href='/' className='underline'>Return Home</a></p></main>)}

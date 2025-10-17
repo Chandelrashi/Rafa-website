@@ -1,0 +1,1 @@
+export default function Error(){return(<main className='mx-auto max-w-3xl px-4 py-24 text-center'><h1 className='text-4xl font-semibold mb-2'>Something went wrong</h1><p className='text-zinc-600 dark:text-zinc-300'>We’re on it. Please try again or contact hello@rafasolutions.com.</p><p className='mt-6'><a href='/' className='underline'>Return Home</a></p></main>)}
