@@ -1,7 +1,5 @@
 import CaseLayout from "@/components/CaseLayout";
-
 export const metadata = { title: "Urban Realty — Automation Suite (Sales Intelligence CRM)" };
-
 export default function Page() {
   return (
     <CaseLayout
