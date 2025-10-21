@@ -1,7 +1,5 @@
 import CaseLayout from "@/components/CaseLayout";
-
 export const metadata = { title: "Aurora Eats — Full-Stack Cross-Platform Ecosystem" };
-
 export default function Page() {
   return (
     <CaseLayout
