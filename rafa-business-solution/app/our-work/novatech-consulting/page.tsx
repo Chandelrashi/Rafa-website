@@ -1,7 +1,5 @@
 import CaseLayout from "@/components/CaseLayout";
-
 export const metadata = { title: "NovaTech Consulting — Enterprise Website Transformation" };
-
 export default function Page() {
   return (
     <CaseLayout
