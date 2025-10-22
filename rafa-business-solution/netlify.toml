@@ -1,6 +1,8 @@
+
 [build]
 command = "npm run build"
-publish = "out"
+## Omit `publish` to allow Netlify's Next.js runtime to handle dynamic routes and output
+## See: https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/
 
 [[redirects]]
 from = "/*"
