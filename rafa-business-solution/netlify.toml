@@ -1,10 +1,29 @@
+# Netlify configuration for RAFA Business Solution
+#
+# This configuration enables dynamic Next.js routing on Netlify. The
+# `next-runtime` plugin automatically handles serverless functions and
+# incremental page rendering. For more details, see:
+#   https://docs.netlify.com/configure-builds/build-settings/
+#   https://www.meje.dev/blog/next-directory-returns-error-404-on-netlify
 
 [build]
-command = "npm run build"
-## Omit `publish` to allow Netlify's Next.js runtime to handle dynamic routes and output
-## See: https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/
+  # Set the base directory so the build command runs in the Next.js project
+  base = "rafa-business-solution"
+  # Build the site using the standard Next.js build command
+  command = "npm run build"
+  # Publish the contents of the `.next` directory. The Next.js runtime will
+  # automatically serve pages and API routes from this folder.
+  publish = ".next"
+
+[[plugins]]
+  # Use Netlify's official Next.js plugin to enable dynamic routing,
+  # server‑side rendering and API routes. Netlify will install this
+  # plugin automatically during the build.
+  package = "@netlify/plugin-nextjs"
 
 [[redirects]]
-from = "/*"
-to = "/404.html"
-status = 404
+  # Fallback redirect for unmatched routes to a custom 404 page. This is
+  # optional as the Next.js runtime will generate its own 404 page.
+  from = "/*"
+  to = "/404.html"
+  status = 404
