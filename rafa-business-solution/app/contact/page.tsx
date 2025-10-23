@@ -1,10 +1,6 @@
 "use client";
 // Contact page for RAFA Business Solution
 
-export const metadata = {
-  title: "Contact – RAFA Business Solution",
-};
-
 export default function Page() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-16">
