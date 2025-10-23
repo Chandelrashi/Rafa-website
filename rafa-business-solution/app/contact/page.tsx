@@ -13,13 +13,9 @@ export default function Page() {
         scale? Get in touch using the form below.
       </p>
       <form
-        name="contact"
-        method="post"
-        data-netlify="true"
         className="grid gap-4 mt-8"
+        onSubmit={(e) => e.preventDefault()}
       >
-        {/* Netlify Forms hidden field */}
-        <input type="hidden" name="form-name" value="contact" />
         <div className="grid gap-2">
           <label className="text-sm">Name</label>
           <input
