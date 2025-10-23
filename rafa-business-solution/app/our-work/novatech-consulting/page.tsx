@@ -1,9 +1,9 @@
 import CaseLayout from "@/components/CaseLayout";
-export const metadata = { title: "NovaTech Consulting — Enterprise Website Transformation" };
+export const metadata = { title: "NovaTech Consulting: Enterprise Website Transformation
 export default function Page() {
   return (
     <CaseLayout
-      title="NovaTech Consulting — Enterprise Website Transformation"
+      title="NovaTech Consulting: Enterprise Website Transformationation"
       category="Digital Experience & Lead Generation Platform"
       challenge={[
         "Legacy site lacked scalability and had poor SEO, causing high bounce rates and low qualified leads.",
