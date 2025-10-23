@@ -1,4 +1,3 @@
-
 'use client';
 import Script from "next/script";
 import { ArrowRight, CheckCircle2, Mail, PhoneCall, MapPin } from "lucide-react";
