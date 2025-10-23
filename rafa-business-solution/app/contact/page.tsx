@@ -1,3 +1,4 @@
+"use client";
 // Contact page for RAFA Business Solution
 
 export const metadata = {
